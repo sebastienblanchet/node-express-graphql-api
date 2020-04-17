@@ -22,8 +22,6 @@ const createContactTable = () => {
 
 createContactTable();
 
-
-
 const ContactType = new graphql.GraphQLObjectType({
   name: "Contact",
   fields: {
