@@ -1,19 +1,19 @@
 <template>
   <v-app>
     <v-content>
-      <CrudTable/>
+      <ContactTable/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import CrudTable from './components/CrudTable';
+import ContactTable from './components/ContactTable';
 
 export default {
   name: 'App',
 
   components: {
-    CrudTable,
+    ContactTable,
   },
 
   data: () => ({
